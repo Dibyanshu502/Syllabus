@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syllabus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
     <style>
         *{
             color: white;
             background: rgb(32, 31, 31);
+            font-family: 'Poppins', sans-serif;
+            font-size: large;
+            font-style: italic;
         }
         h3{
             text-align: center;
@@ -16,16 +23,19 @@
         }
 
         .sub ul{
-            display: grid;
-            grid-template-columns: 3fr;
-            justify-content: space-between;
-            align-items: center;
+            max-width: 940px;
+            margin: 0 auto;
+            padding: 30px;
+            
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
             
         }
 
         .sub ul li {
-            
-            margin-top: 95px;
+            margin-top: 26px;
+            margin-right: 25px;
             border: 2px solid rgb(215, 123, 154) ;
             padding: 50px;
             list-style: none;
@@ -33,19 +43,25 @@
             transition: all 300ms ease;
             width: 25%;
         }
+
+        .sub ul li a{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
         .sub ul li:hover{
             background: rgb(153, 96, 222);
-            transform: translateX(30px);
+            transform: translateX(5px);
         }
         .sub ul li a{
             background: none;
-            color:white;
             text-decoration: none;
         }
-        .sub ul li a:hover{
-            background: rgb(153, 96, 222);
-            
+
+        footer{
+            font-size: small;
         }
+        
        
     </style>
 </head>
@@ -53,11 +69,14 @@
     <h3>Syllabus for 5th Sem</h3>
     <div class="sub">
         <ul>
-            <li><a href="img1.png">MACHINE DESIGN- I</a></li>
-            <li><a href="img2.png">MANUFACTURING SCIENCE AND TECHNOLOGY-II</a></li>
-            <li><a href="img3.png">FLUID DYNAMICS AND HYDRAULIC MACHINES</a></li>
+            <li><a href="md1.png">MACHINE DESIGN- I</a></li>
+            <li><a href="mst-2.png">MANUFACTURING SCIENCE AND TECHNOLOGY-II</a></li>
+            <li><a href="Fm.png">FINANCIAL MANAGEMENT</a></li>
+            <li><a href="fdhm.png">FLUID DYNAMICS AND HYDRAULIC MACHINES</a></li>
+            <li><a href="mdy-2.png">MACHINE DYNAMICS-II</a></li>
+            <li><a href="mem.png">MAINTAINANCE ENGG. & MANAGEMENT</a></li>
         </ul>
     </div>
-
 </body>
+<footer>Copyright DK</footer>
 </html>
